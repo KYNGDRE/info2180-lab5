@@ -12,15 +12,22 @@
 	</head>
 
 	<body>
-		<header>
+		<header class="flex-container">
+			<img src="/pictures/world1.webp" height="15%" width="15%" alt="World Image"> 
+			<!-- alt="World Image" -->
 			<h1>World Database Lookup</h1>
 		</header>
 
 		<main>
 			<div id="controls">
-				<label for="country">Country:</label>
+				<br>
+				<!-- <label for="country">Country:</label> -->
 				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
+				<br>
+				<div class="flex">
+				<button id="lookup1">Lookup Countries</button>
+				<button id="lookup2">Lookup Cities</button>
+				</div>
 			</div>
 			
 			<div id="result">

@@ -1,1 +1,57 @@
 /* Add your own styles */
+.flex-container{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5% 10% 5% 10%;
+    background-color: #1b1a42;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    color: #ffffff;
+}
+
+body{
+    background-color: #F3FFFC;
+    /* padding: 10% 20% 10% 10%; */
+
+}
+
+#lookup1{
+    text-align: center;
+    /* align-items: center; */
+    background-color: #53B195;
+}
+
+#lookup2{
+    text-align: center;
+    /* align-items: center; */
+    background-color: #2F7DB1;
+}
+
+.flex{
+    /* align-items: center; */
+    /* text-align: center; */
+    /* align-content: center; */
+    display: flex;
+    padding:  10px 50px 50px 50px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#country{
+    size: 100px;
+    width: 500px;
+    text-align: center;
+    align-self: center;
+}
+
+#controls{
+    text-align: center;
+    padding:  10px 50px 50px 50px;
+    gap: 10px;
+    width: 100%;
+}
