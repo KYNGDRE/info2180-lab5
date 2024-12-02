@@ -55,3 +55,27 @@ body{
     gap: 10px;
     width: 100%;
 }
+
+#result{
+    /* align-self: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content:center; */
+    justify-self: center;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
